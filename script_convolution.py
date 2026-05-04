@@ -7,7 +7,7 @@ import numpy as np
 matrice_convolution = [[1, 0, -1], [0, 0, 0], [-1, 0, 1]]
 
 # Chargement de l'image
-path_img = "C:/Users/kevin/Desktop/DEV/Projet/IMAGE/PROJET_IMAGE/base_images_validation/1000016152.jpg"
+path_img = "1000016160.jpg"
 image = cv2.imread(path_img, cv2.IMREAD_GRAYSCALE)
 
 if image is None:
